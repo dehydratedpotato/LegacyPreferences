@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6EC64F291EA753008D5868 /* Legacy_System_PreferencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */; };
+		3F6EC651291EA753008D5868 /* PaneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC650291EA753008D5868 /* PaneViews.swift */; };
+		3F6EC653291EA756008D5868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EC652291EA756008D5868 /* Assets.xcassets */; };
+		3F6EC656291EA756008D5868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EC655291EA756008D5868 /* Preview Assets.xcassets */; };
+		3F6EC65E291EA7D1008D5868 /* BundleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC65D291EA7D1008D5868 /* BundleData.swift */; };
+		3F6EC660291EA838008D5868 /* PaneHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC65F291EA838008D5868 /* PaneHandler.swift */; };
+		3F6EC662291EA886008D5868 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC661291EA886008D5868 /* main.swift */; };
+		3F6EC665291EA8B7008D5868 /* PaneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC664291EA8B7008D5868 /* PaneManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legacy System Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legacy_System_PreferencesApp.swift; sourceTree = "<group>"; };
+		3F6EC650291EA753008D5868 /* PaneViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneViews.swift; sourceTree = "<group>"; };
+		3F6EC652291EA756008D5868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6EC655291EA756008D5868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F6EC657291EA756008D5868 /* Legacy_System_Preferences.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Legacy_System_Preferences.entitlements; sourceTree = "<group>"; };
+		3F6EC65D291EA7D1008D5868 /* BundleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleData.swift; sourceTree = "<group>"; };
+		3F6EC65F291EA838008D5868 /* PaneHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneHandler.swift; sourceTree = "<group>"; };
+		3F6EC661291EA886008D5868 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3F6EC663291EA8B6008D5868 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F6EC664291EA8B7008D5868 /* PaneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6EC648291EA753008D5868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6EC642291EA753008D5868 = {
+			isa = PBXGroup;
+			children = (
+				3F6EC64D291EA753008D5868 /* Legacy System Preferences */,
+				3F6EC64C291EA753008D5868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6EC64C291EA753008D5868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6EC64D291EA753008D5868 /* Legacy System Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EC652291EA756008D5868 /* Assets.xcassets */,
+				3F6EC657291EA756008D5868 /* Legacy_System_Preferences.entitlements */,
+				3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */,
+				3F6EC663291EA8B6008D5868 /* Legacy System Preferences-Bridging-Header.h */,
+				3F6EC661291EA886008D5868 /* main.swift */,
+				3F6EC65D291EA7D1008D5868 /* BundleData.swift */,
+				3F6EC650291EA753008D5868 /* PaneViews.swift */,
+				3F6EC65F291EA838008D5868 /* PaneHandler.swift */,
+				3F6EC664291EA8B7008D5868 /* PaneManager.m */,
+				3F6EC654291EA756008D5868 /* Preview Content */,
+			);
+			path = "Legacy System Preferences";
+			sourceTree = "<group>";
+		};
+		3F6EC654291EA756008D5868 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EC655291EA756008D5868 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6EC64A291EA753008D5868 /* Legacy System Preferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6EC65A291EA756008D5868 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */;
+			buildPhases = (
+				3F6EC647291EA753008D5868 /* Sources */,
+				3F6EC648291EA753008D5868 /* Frameworks */,
+				3F6EC649291EA753008D5868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Legacy System Preferences";
+			productName = "Legacy System Preferences";
+			productReference = 3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6EC643291EA753008D5868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3F6EC64A291EA753008D5868 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 3F6EC646291EA753008D5868 /* Build configuration list for PBXProject "Legacy System Preferences" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6EC642291EA753008D5868;
+			productRefGroup = 3F6EC64C291EA753008D5868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6EC64A291EA753008D5868 /* Legacy System Preferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6EC649291EA753008D5868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6EC656291EA756008D5868 /* Preview Assets.xcassets in Resources */,
+				3F6EC653291EA756008D5868 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6EC647291EA753008D5868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6EC651291EA753008D5868 /* PaneViews.swift in Sources */,
+				3F6EC662291EA886008D5868 /* main.swift in Sources */,
+				3F6EC660291EA838008D5868 /* PaneHandler.swift in Sources */,
+				3F6EC65E291EA7D1008D5868 /* BundleData.swift in Sources */,
+				3F6EC64F291EA753008D5868 /* Legacy_System_PreferencesApp.swift in Sources */,
+				3F6EC665291EA8B7008D5868 /* PaneManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F6EC658291EA756008D5868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6EC659291EA756008D5868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F6EC65B291EA756008D5868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legacy System Preferences/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AL72NS697;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Preferences";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F6EC65C291EA756008D5868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legacy System Preferences/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AL72NS697;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "System Preferences";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6EC646291EA753008D5868 /* Build configuration list for PBXProject "Legacy System Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6EC658291EA756008D5868 /* Debug */,
+				3F6EC659291EA756008D5868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6EC65A291EA756008D5868 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6EC65B291EA756008D5868 /* Debug */,
+				3F6EC65C291EA756008D5868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6EC643291EA753008D5868 /* Project object */;
+}

@@ -20,7 +20,7 @@ An expiremental, jank, slightly reverse-engineered attempt to return the old Sys
 </p>
 
 <p align="center">
-Example screenshot:
+Example screenshot :arrow_down:
 </p>
 
 
@@ -43,17 +43,17 @@ In order restore the classic System Preferences (albeit in a pretty janky manner
 Because some of us miss the ways of old (see new [System Settings](https://9to5mac.com/2022/06/06/macos-13-ventura-system-settings-first-look/)).
 
 ### Construction!
-The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain.
+The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain. The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
 
 # Old Preference Pane Installation
 1. Download the preference panes [from here](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link).
 2. Unzip the download. Use Finder to **Rename > Add Text**. Then, append the extension `.prefPane` to all items in unzipped directory.
 3. Make a folder `/Library/LegacyPrefPanes` and move the preference panes into it. 
 
-**Note:** Just like classic System Preferences, this app will not function without `.prefPane` files. If `/Library/LegacyPrefPanes` is empty, you will have no panes available. 
+**Note:** Just like classic System Preferences, this app will not function without `.prefPane` files. **If `/Library/LegacyPrefPanes` is empty or does not exist, you will have no panes available.** 
 
-4. Finally, open `/Library/LegacyPrefPanes` in Terminal, and run the `pane_stripper.sh` tool (located in source or [release DMG](https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases)). Don't forget to chmod it first!
-5. NOW, YOU ARE READY.
+4. Finally, open `/Library/LegacyPrefPanes` in Terminal, and run the `pane_stripper.sh` tool (located in source or [release DMG](https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases)). Don't forget to `chmod` it first!
+5. Now you are ready for..."nostalgia", I guess?
 
 ### Waitaminute! What does `pane_stripper.sh` do?
 `pane_stripper.sh` removes the code signature of all pref panes (for compatibilty), and flags them as safe to the system (to stop the system from killing the pane for not having a signature).
@@ -64,14 +64,13 @@ ___
 # :warning: Halt! Misc Disclaimers and Warnings
 - The app icon used by Legacy System Preferences was designed by Apple, not I, and belongs to the native System Preferences/Settings app.
 - The classic preference panes used by this app ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) were written and licensed by Apple, not I, and were ripped from a previous release of MacOS.
-- The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
 
-If any preference pane (3rd party or distributed by me via old macOS) via this app decides to wig out and bricks your machine or nukes your filesystem, don't blame me for the catastrophe. This project is very much a jank experiment. **You've been warned!!!**
+If *any* preference pane (3rd party or from old macOS) via this app decides to wig out and bricks your machine or nukes your filesystem, don't blame me for the catastrophe. This project is very much a jank experiment. **You've been warned!!!**
 
 ___
 
 ## Completion Checklist
-This is a checklist of crucial features I need to add and are in development currently.
+This is a checklist of crucial features I need to hurry up and add. They are in development currently.
 - [ ] User Avatar Setting
 - [ ] Search with Spotlight Focus
 - [ ] Backwards/Forwards Navigation

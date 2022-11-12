@@ -86,6 +86,6 @@ This is a report of old system prefs ([these](https://drive.google.com/drive/fol
 | Status | Pane(s)
 | ---- | ---- |
 | Seemingly Working | General, Spotlight, Language & Region, Sound, Sidecar, Date & Time, Energy Saver, Sharing, Network, Mouse, Security & Privacy, Extensions, Users & Groups, Mission Control |
-| Missing Crucial Funcs | Apple ID, Internet Accounts, Notifications, Destop & Screensaver, Software Update, Startup Disk |
-| Failing | Fibre Channel, Dock, Family Sharing, Printer & Scanner, Siri, Blueooth, Keyboard, Trackpad, Displays, Classroom, Profiles, Screen Time, Time Machine, Wallet |
+| Missing Crucial Funcs | Apple ID, Internet Accounts, Notifications, Desktop & Screensaver, Software Update, Startup Disk |
+| Failing | Fibre Channel, Dock, Family Sharing, Printer & Scanner, Siri, Bluetooth, Keyboard, Trackpad, Displays, Classroom, Profiles, Screen Time, Time Machine, Wallet |
 | Untested or Seemingly Working | Battery, CDs & DVDs |

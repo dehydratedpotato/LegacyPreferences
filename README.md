@@ -1,6 +1,6 @@
 <h1 align="center" style="">Legacy System Preferences</h1>
 <p align="center">
-An expiremental, jank reverse, slightly reverse-engineered attempt to return the old System Preferences to MacOS Ventura. Work in progress!
+An expiremental, jank, slightly reverse-engineered attempt to return the old System Preferences to MacOS Ventura. Work in progress!
 </p>
 <p align="center">
 <a href="">

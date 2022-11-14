@@ -45,6 +45,11 @@ Because some of us miss the ways of old (see new [System Settings](https://9to5m
 ### Construction!
 The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain. The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
 
+
+### Contribution!
+If anyone wishes to contribute towards the app’s preference pane support and stability, feel free to make an issue detailing improvement suggestions or open a PR for the change. I will respond and evaluate propositions as quick as possible.
+
+
 # Old Preference Pane Installation
 1. Download the preference panes [from here](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link).
 2. Unzip the download. Use Finder to **Rename > Add Text**. Then, append the extension `.prefPane` to all items in unzipped directory.

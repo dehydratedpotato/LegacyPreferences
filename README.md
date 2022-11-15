@@ -3,33 +3,33 @@
 An expiremental, jank, slightly reverse-engineered attempt to return the old System Preferences to MacOS Ventura. Work in progress!
 </p>
 <p align="center">
-<a href="">
-       <img alt="Silicon Support" src="https://img.shields.io/badge/Support-MacOS_Ventura_13.0+-orange.svg"/>
+    <a href="">
+       <img alt="Software Support" src="https://img.shields.io/badge/support-macOS_Ventura-lightgrey.svg"/>
     </a>
-        <a href="">
-       <img alt="Silicon Support" src="https://img.shields.io/badge/Status-Jank-white.svg"/>
+    <a href="">
+       <img alt="Stablility Status" src="https://img.shields.io/badge/stability-Jank-red.svg"/>
     </a>
     <a href="https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases">
         <img alt="Releases" src="https://img.shields.io/github/release/BitesPotatoBacks/LegacySystemPreferences.svg"/>
     </a>
-      <!--
-    <a href="https://github.com/BitesPotatoBacks/LegacySystemPreferences/stargazers">
-        <img alt="Stars" src="https://img.shields.io/github/stars/BitesPotatoBacks/LegacySystemPreferences.svg"/>
-    </a>
-    -->
 </p>
 
+<!--
 <p align="center">
 Example screenshot :arrow_down:
 </p>
-
+-->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/83843298/201423236-261cd319-a289-4ddd-8ed3-7f213dcc15a6.png" width="548" height="474">
+<img src="https://user-images.githubusercontent.com/83843298/201423236-261cd319-a289-4ddd-8ed3-7f213dcc15a6.png" width="548">
 </p>
 
+<h6 align="center">Screenshot of Legacy System Preferences shown above</h6>
+
+___
+
 # :wave: Wait! Functionality Warning
-Due to the nature of the project, some panes may be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), and some crucial features are not yet implemented (see [Completion Checklist](#completion-checklist)).
+Due to the nature of the project, some old-macOS panes (such as **Software Update** or **Siri**) may be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), and some crucial features are not yet implemented (see [Completion Checklist](#completion-checklist)).
 
 Some panes may require different privacy privileges in order to work properly. For example, screen recording for **Appearance** (weird, right?) or input monitoring for the keyboard menu in **Accessibility**.
 
@@ -45,10 +45,13 @@ Because some of us miss the ways of old (see new [System Settings](https://9to5m
 ### Construction!
 The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain. The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
 
+### Localization!
+No localization has been implemented just yet, working on that too...
 
 ### Contribution!
 If anyone wishes to contribute towards the app’s preference pane support and stability, feel free to make an issue detailing improvement suggestions or open a PR for the change. I will respond and evaluate propositions as quick as possible.
 
+___
 
 # Old Preference Pane Installation
 1. Download the preference panes [from here](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link).

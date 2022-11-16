@@ -21,8 +21,9 @@ Example screenshot :arrow_down:
 -->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/83843298/201423236-261cd319-a289-4ddd-8ed3-7f213dcc15a6.png" width="548">
+<img src="https://user-images.githubusercontent.com/83843298/202053695-75c5573a-48ba-4395-b9d2-35ad2ba99c60.png" width="548">
 </p>
+
 
 <h6 align="center">Screenshot of Legacy System Preferences shown above</h6>
 
@@ -80,11 +81,12 @@ ___
 ## Completion Checklist
 This is a checklist of crucial features I need to hurry up and add. They are in development currently.
 - [ ] User Avatar Setting
+- [X] ~~User Avatar Collection~~
 - [ ] Search with Spotlight Focus
 - [ ] Backwards/Forwards Navigation
 - [ ] Crossfade Transitions
-- [ ] Alphabetical Pane Sorting
-- [ ] Pane Enable/Disable
+- [X] ~~Alphabetical Pane Sorting~~
+- [X] ~~Pane Enable/Disable~~
 - [ ] 3rd Party Pane Support
 - [X] ~~Pane Loading~~
 

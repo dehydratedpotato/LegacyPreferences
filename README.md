@@ -21,9 +21,8 @@ Example screenshot :arrow_down:
 -->
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/83843298/202053695-75c5573a-48ba-4395-b9d2-35ad2ba99c60.png" width="548">
+<img src="https://user-images.githubusercontent.com/83843298/202055563-7ffc1d4f-a6f3-4dce-b586-0a33a961fb66.png" width="548">
 </p>
-
 
 <h6 align="center">Screenshot of Legacy System Preferences shown above</h6>
 

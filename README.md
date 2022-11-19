@@ -29,7 +29,7 @@ Example screenshot :arrow_down:
 ___
 
 # :wave: Wait! Functionality Warning
-Due to the nature of the project, some old-macOS panes (such as **Software Update** or **Siri**) may be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), and some crucial features are not yet implemented (see [Completion Checklist](#completion-checklist)).
+Due to the nature of the project, some old-macOS panes (such as **Software Update** or **Siri**) may be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), and some crucial features are not fully implemented (see [Completion Checklist](#completion-checklist)).
 
 Some panes may require different privacy privileges in order to work properly. For example, screen recording for **Appearance** (weird, right?) or input monitoring for the keyboard menu in **Accessibility**.
 
@@ -58,7 +58,7 @@ ___
 2. Unzip the download. Use Finder to **Rename > Add Text**. Then, append the extension `.prefPane` to all items in unzipped directory.
 3. Make a folder `/Library/LegacyPrefPanes` and move the preference panes into it. 
 
-**Note:** Just like classic System Preferences, this app will not function without `.prefPane` files. **If `/Library/LegacyPrefPanes` is empty or does not exist, you will have no panes available.** 
+**Note: Just like classic System Preferences, this app will not function without `.prefPane` files. **If `/Library/LegacyPrefPanes` is empty or does not exist, you will have no panes available. You may also place panes under the native `/Library/PreferencePanes` directory, if you wish.**
 
 4. Finally, open `/Library/LegacyPrefPanes` in Terminal, and run the `pane_stripper.sh` tool (located in source or [release DMG](https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases)). Don't forget to `chmod` it first!
 5. Now you are ready for..."nostalgia", I guess?
@@ -73,7 +73,7 @@ ___
 - The app icon used by Legacy System Preferences was designed by Apple, not I, and belongs to the native System Preferences/Settings app.
 - The classic preference panes used by this app ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) were written and licensed by Apple, not I, and were ripped from a previous release of MacOS.
 
-If *any* preference pane (3rd party or from old macOS) via this app decides to wig out and bricks your machine or nukes your filesystem, don't blame me for the catastrophe. This project is very much a jank experiment. **You've been warned!!!**
+If *any* preference pane (3rd party or from old macOS) contained by this app decides to wig out and bricks your machine or nukes your filesystem, don't blame me for the catastrophe. This project is very much a jank experiment. **You've been warned!!!**
 
 ___
 
@@ -82,12 +82,14 @@ This is a checklist of crucial features I need to hurry up and add. They are in 
 - [ ] User Avatar Setting
 - [X] ~~User Avatar Collection~~
 - [ ] Search with Spotlight Focus
-- [ ] Backwards/Forwards Navigation
+- [X] ~~Backwards/Forwards Navigation~~
 - [ ] Crossfade Transitions
 - [X] ~~Alphabetical Pane Sorting~~
 - [X] ~~Pane Enable/Disable~~
-- [ ] 3rd Party Pane Support
+- [X] ~~3rd Party Pane Support~~ (store in `/Library/PreferencePanes`)
 - [X] ~~Pane Loading~~
+
+**Notes:** 3rd party panes are allowed but may still suffer instability
 
 ## Pane Status Table
 This is a report of old system prefs ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) and their status. Note that the `Appearance` pane works but is slightly unstable.

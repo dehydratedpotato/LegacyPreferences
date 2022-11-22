@@ -58,13 +58,13 @@ ___
 2. Unzip the download. Use Finder to **Rename > Add Text**. Then, append the extension `.prefPane` to all items in unzipped directory.
 3. Make a folder `/Library/LegacyPrefPanes` and move the preference panes into it. 
 
-**Note: Just like classic System Preferences, this app will not function without `.prefPane` files. **If `/Library/LegacyPrefPanes` is empty or does not exist, you will have no panes available. You may also place panes under the native `/Library/PreferencePanes` directory, if you wish.**
+**Note**: Just like classic System Preferences, this app will not function without `.prefPane` files. If `/Library/LegacyPrefPanes` is empty or does not exist, you will have no panes available. You may also place panes under the native `/Library/PreferencePanes` directory, if you wish.
 
 4. Finally, open `/Library/LegacyPrefPanes` in Terminal, and run the `pane_stripper.sh` tool (located in source or [release DMG](https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases)). Don't forget to `chmod` it first!
 5. Now you are ready for..."nostalgia", I guess?
 
 ### Waitaminute! What does `pane_stripper.sh` do?
-`pane_stripper.sh` removes the code signature of all pref panes (for compatibilty), and flags them as safe to the system (to stop the system from killing the pane for not having a signature).
+`pane_stripper.sh` removes the code signature of all pref panes in the current operating dir (for compatibilty), and flags them as safe to the system (to stop the system from killing the pane for not having a signature). It is necessary to use this tool for our method, and without it, old pref panes (most likely) will not run in the app.
 
 
 ___
@@ -84,12 +84,13 @@ This is a checklist of crucial features I need to hurry up and add. They are in 
 - [ ] Search with Spotlight Focus
 - [X] ~~Backwards/Forwards Navigation~~
 - [ ] Crossfade Transitions
+- [ ] Localization
 - [X] ~~Alphabetical Pane Sorting~~
 - [X] ~~Pane Enable/Disable~~
-- [X] ~~3rd Party Pane Support~~ (store in `/Library/PreferencePanes`)
+- [X] ~~3rd Party Pane Support~~
 - [X] ~~Pane Loading~~
 
-**Notes:** 3rd party panes are allowed but may still suffer instability
+**Notes:** 3rd party panes are allowed but may still suffer instability. Place them in `/Library/PreferencePanes` as you normally would.
 
 ## Pane Status Table
 This is a report of old system prefs ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) and their status. Note that the `Appearance` pane works but is slightly unstable.

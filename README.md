@@ -42,6 +42,8 @@ In order restore the classic System Preferences (albeit in a pretty janky manner
 ### Why it do?
 Because some of us miss the ways of old (see new [System Settings](https://9to5mac.com/2022/06/06/macos-13-ventura-system-settings-first-look/)).
 
+**Note**: Although it may be possible to bring the actual System Preferences from an older release (like Monterey) and run it in Ventura (with the proper pref panes), that method requires access to another Mac or a VM. Besides, it probably wouldn't even run on your system (I tried it).
+
 ### Construction!
 The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain. The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
 

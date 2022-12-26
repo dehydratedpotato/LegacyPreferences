@@ -7,34 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F01B61A292699570081D18D /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F01B619292699570081D18D /* AvatarView.swift */; };
-		3F6EC64F291EA753008D5868 /* Legacy_System_PreferencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */; };
-		3F6EC651291EA753008D5868 /* PaneViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC650291EA753008D5868 /* PaneViews.swift */; };
-		3F6EC653291EA756008D5868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EC652291EA756008D5868 /* Assets.xcassets */; };
-		3F6EC656291EA756008D5868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6EC655291EA756008D5868 /* Preview Assets.xcassets */; };
-		3F6EC65E291EA7D1008D5868 /* BundleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC65D291EA7D1008D5868 /* BundleData.swift */; };
-		3F6EC660291EA838008D5868 /* PaneHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC65F291EA838008D5868 /* PaneHandler.swift */; };
-		3F6EC662291EA886008D5868 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC661291EA886008D5868 /* main.swift */; };
-		3F6EC665291EA8B7008D5868 /* PaneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EC664291EA8B7008D5868 /* PaneManager.m */; };
+		3F8134AD29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */; };
+		3F8134B129561A2B00B5BB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134B029561A2B00B5BB78 /* Assets.xcassets */; };
+		3F8134B429561A2B00B5BB78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134B329561A2B00B5BB78 /* Preview Assets.xcassets */; };
+		3F8134BF29561ADA00B5BB78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134BE29561ADA00B5BB78 /* HomeView.swift */; };
+		3F8134C129561AE500B5BB78 /* PaneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C029561AE500B5BB78 /* PaneManager.swift */; };
+		3F8134C329561AF500B5BB78 /* BundleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C229561AF500B5BB78 /* BundleData.swift */; };
+		3F8134C729561B8100B5BB78 /* RepresentableSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */; };
+		3F8134C929561B9200B5BB78 /* RepresentablePaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */; };
+		3F8134CB29561BA900B5BB78 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134CA29561BA900B5BB78 /* AvatarView.swift */; };
+		3F8134CD29561BD400B5BB78 /* PaneItemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */; };
+		3F8134D529561F9600B5BB78 /* PaneAccessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D329561F9600B5BB78 /* PaneAccessLayer.m */; };
+		3F8134D729561FB200B5BB78 /* PaneAccessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */; };
+		3F8134DA295622C200B5BB78 /* RepresentableVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */; };
+		3F8134DC29577FE800B5BB78 /* setavatar.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134DB2957773500B5BB78 /* setavatar.sh */; };
+		3F8134E0295A1FFF00B5BB78 /* AvatarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F01B619292699570081D18D /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legacy System Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legacy_System_PreferencesApp.swift; sourceTree = "<group>"; };
-		3F6EC650291EA753008D5868 /* PaneViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneViews.swift; sourceTree = "<group>"; };
-		3F6EC652291EA756008D5868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F6EC655291EA756008D5868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3F6EC657291EA756008D5868 /* Legacy_System_Preferences.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Legacy_System_Preferences.entitlements; sourceTree = "<group>"; };
-		3F6EC65D291EA7D1008D5868 /* BundleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleData.swift; sourceTree = "<group>"; };
-		3F6EC65F291EA838008D5868 /* PaneHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneHandler.swift; sourceTree = "<group>"; };
-		3F6EC661291EA886008D5868 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3F6EC663291EA8B6008D5868 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
-		3F6EC664291EA8B7008D5868 /* PaneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneManager.m; sourceTree = "<group>"; };
+		3F8134A929561A2900B5BB78 /* Legacy System Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legacy System Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legacy_System_PreferencesApp.swift; sourceTree = "<group>"; };
+		3F8134B029561A2B00B5BB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8134B329561A2B00B5BB78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F8134B529561A2B00B5BB78 /* Legacy_System_Preferences.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Legacy_System_Preferences.entitlements; sourceTree = "<group>"; };
+		3F8134BE29561ADA00B5BB78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F8134C029561AE500B5BB78 /* PaneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneManager.swift; sourceTree = "<group>"; };
+		3F8134C229561AF500B5BB78 /* BundleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleData.swift; sourceTree = "<group>"; };
+		3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableSearchField.swift; sourceTree = "<group>"; };
+		3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentablePaneView.swift; sourceTree = "<group>"; };
+		3F8134CA29561BA900B5BB78 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneItemViews.swift; sourceTree = "<group>"; };
+		3F8134D329561F9600B5BB78 /* PaneAccessLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaneAccessLayer.m; sourceTree = "<group>"; };
+		3F8134D429561F9600B5BB78 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneAccessLayer.m; sourceTree = "<group>"; };
+		3F8134D829561FCE00B5BB78 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableVisualEffect.swift; sourceTree = "<group>"; };
+		3F8134DB2957773500B5BB78 /* setavatar.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setavatar.sh; sourceTree = "<group>"; };
+		3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F6EC648291EA753008D5868 /* Frameworks */ = {
+		3F8134A629561A2900B5BB78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,58 +57,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F6EC642291EA753008D5868 = {
+		3F8134A029561A2900B5BB78 = {
 			isa = PBXGroup;
 			children = (
-				3F6EC64D291EA753008D5868 /* Legacy System Preferences */,
-				3F6EC64C291EA753008D5868 /* Products */,
+				3F8134AB29561A2900B5BB78 /* Legacy System Preferences */,
+				3F8134AA29561A2900B5BB78 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F6EC64C291EA753008D5868 /* Products */ = {
+		3F8134AA29561A2900B5BB78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */,
+				3F8134A929561A2900B5BB78 /* Legacy System Preferences.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F6EC64D291EA753008D5868 /* Legacy System Preferences */ = {
+		3F8134AB29561A2900B5BB78 /* Legacy System Preferences */ = {
 			isa = PBXGroup;
 			children = (
-				3F6EC652291EA756008D5868 /* Assets.xcassets */,
-				3F6EC657291EA756008D5868 /* Legacy_System_Preferences.entitlements */,
-				3F6EC64E291EA753008D5868 /* Legacy_System_PreferencesApp.swift */,
-				3F6EC663291EA8B6008D5868 /* Legacy System Preferences-Bridging-Header.h */,
-				3F6EC661291EA886008D5868 /* main.swift */,
-				3F6EC65D291EA7D1008D5868 /* BundleData.swift */,
-				3F6EC650291EA753008D5868 /* PaneViews.swift */,
-				3F01B619292699570081D18D /* AvatarView.swift */,
-				3F6EC65F291EA838008D5868 /* PaneHandler.swift */,
-				3F6EC664291EA8B7008D5868 /* PaneManager.m */,
-				3F6EC654291EA756008D5868 /* Preview Content */,
+				3F8134B029561A2B00B5BB78 /* Assets.xcassets */,
+				3F8134B529561A2B00B5BB78 /* Legacy_System_Preferences.entitlements */,
+				3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */,
+				3F8134C229561AF500B5BB78 /* BundleData.swift */,
+				3F8134D829561FCE00B5BB78 /* Legacy System Preferences-Bridging-Header.h */,
+				3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */,
+				3F8134CE29561BDB00B5BB78 /* Views */,
+				3F8134E1295A201D00B5BB78 /* Observed */,
+				3F8134CF29561BEA00B5BB78 /* Representable */,
+				3F8134DE295A1A6200B5BB78 /* Scripts */,
+				3F8134B229561A2B00B5BB78 /* Preview Content */,
 			);
 			path = "Legacy System Preferences";
 			sourceTree = "<group>";
 		};
-		3F6EC654291EA756008D5868 /* Preview Content */ = {
+		3F8134B229561A2B00B5BB78 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3F6EC655291EA756008D5868 /* Preview Assets.xcassets */,
+				3F8134D429561F9600B5BB78 /* Legacy System Preferences-Bridging-Header.h */,
+				3F8134D329561F9600B5BB78 /* PaneAccessLayer.m */,
+				3F8134B329561A2B00B5BB78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F8134CE29561BDB00B5BB78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134BE29561ADA00B5BB78 /* HomeView.swift */,
+				3F8134CA29561BA900B5BB78 /* AvatarView.swift */,
+				3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F8134CF29561BEA00B5BB78 /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */,
+				3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */,
+				3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */,
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
+		3F8134DE295A1A6200B5BB78 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134DB2957773500B5BB78 /* setavatar.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		3F8134E1295A201D00B5BB78 /* Observed */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134C029561AE500B5BB78 /* PaneManager.swift */,
+				3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */,
+			);
+			path = Observed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F6EC64A291EA753008D5868 /* Legacy System Preferences */ = {
+		3F8134A829561A2900B5BB78 /* Legacy System Preferences */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6EC65A291EA756008D5868 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */;
+			buildConfigurationList = 3F8134B829561A2B00B5BB78 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */;
 			buildPhases = (
-				3F6EC647291EA753008D5868 /* Sources */,
-				3F6EC648291EA753008D5868 /* Frameworks */,
-				3F6EC649291EA753008D5868 /* Resources */,
+				3F8134A529561A2900B5BB78 /* Sources */,
+				3F8134A629561A2900B5BB78 /* Frameworks */,
+				3F8134A729561A2900B5BB78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,26 +155,26 @@
 			);
 			name = "Legacy System Preferences";
 			productName = "Legacy System Preferences";
-			productReference = 3F6EC64B291EA753008D5868 /* Legacy System Preferences.app */;
+			productReference = 3F8134A929561A2900B5BB78 /* Legacy System Preferences.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F6EC643291EA753008D5868 /* Project object */ = {
+		3F8134A129561A2900B5BB78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					3F6EC64A291EA753008D5868 = {
-						CreatedOnToolsVersion = 14.1;
-						LastSwiftMigration = 1410;
+					3F8134A829561A2900B5BB78 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
-			buildConfigurationList = 3F6EC646291EA753008D5868 /* Build configuration list for PBXProject "Legacy System Preferences" */;
+			buildConfigurationList = 3F8134A429561A2900B5BB78 /* Build configuration list for PBXProject "Legacy System Preferences" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,50 +182,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F6EC642291EA753008D5868;
-			productRefGroup = 3F6EC64C291EA753008D5868 /* Products */;
+			mainGroup = 3F8134A029561A2900B5BB78;
+			productRefGroup = 3F8134AA29561A2900B5BB78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F6EC64A291EA753008D5868 /* Legacy System Preferences */,
+				3F8134A829561A2900B5BB78 /* Legacy System Preferences */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F6EC649291EA753008D5868 /* Resources */ = {
+		3F8134A729561A2900B5BB78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6EC656291EA756008D5868 /* Preview Assets.xcassets in Resources */,
-				3F6EC653291EA756008D5868 /* Assets.xcassets in Resources */,
+				3F8134B429561A2B00B5BB78 /* Preview Assets.xcassets in Resources */,
+				3F8134DC29577FE800B5BB78 /* setavatar.sh in Resources */,
+				3F8134B129561A2B00B5BB78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F6EC647291EA753008D5868 /* Sources */ = {
+		3F8134A529561A2900B5BB78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6EC651291EA753008D5868 /* PaneViews.swift in Sources */,
-				3F6EC662291EA886008D5868 /* main.swift in Sources */,
-				3F01B61A292699570081D18D /* AvatarView.swift in Sources */,
-				3F6EC660291EA838008D5868 /* PaneHandler.swift in Sources */,
-				3F6EC65E291EA7D1008D5868 /* BundleData.swift in Sources */,
-				3F6EC64F291EA753008D5868 /* Legacy_System_PreferencesApp.swift in Sources */,
-				3F6EC665291EA8B7008D5868 /* PaneManager.m in Sources */,
+				3F8134DA295622C200B5BB78 /* RepresentableVisualEffect.swift in Sources */,
+				3F8134CD29561BD400B5BB78 /* PaneItemViews.swift in Sources */,
+				3F8134C929561B9200B5BB78 /* RepresentablePaneView.swift in Sources */,
+				3F8134C329561AF500B5BB78 /* BundleData.swift in Sources */,
+				3F8134BF29561ADA00B5BB78 /* HomeView.swift in Sources */,
+				3F8134AD29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift in Sources */,
+				3F8134C129561AE500B5BB78 /* PaneManager.swift in Sources */,
+				3F8134D729561FB200B5BB78 /* PaneAccessLayer.m in Sources */,
+				3F8134E0295A1FFF00B5BB78 /* AvatarManager.swift in Sources */,
+				3F8134D529561F9600B5BB78 /* PaneAccessLayer.m in Sources */,
+				3F8134CB29561BA900B5BB78 /* AvatarView.swift in Sources */,
+				3F8134C729561B8100B5BB78 /* RepresentableSearchField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3F6EC658291EA756008D5868 /* Debug */ = {
+		3F8134B629561A2B00B5BB78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -226,14 +285,17 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		3F6EC659291EA756008D5868 /* Release */ = {
+		3F8134B729561A2B00B5BB78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -279,18 +341,20 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		3F6EC65B291EA756008D5868 /* Debug */ = {
+		3F8134B929561A2B00B5BB78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -306,9 +370,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -316,14 +381,14 @@
 			};
 			name = Debug;
 		};
-		3F6EC65C291EA756008D5868 /* Release */ = {
+		3F8134BA29561A2B00B5BB78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -339,9 +404,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Legacy System Preferences/Legacy System Preferences-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -351,25 +417,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F6EC646291EA753008D5868 /* Build configuration list for PBXProject "Legacy System Preferences" */ = {
+		3F8134A429561A2900B5BB78 /* Build configuration list for PBXProject "Legacy System Preferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6EC658291EA756008D5868 /* Debug */,
-				3F6EC659291EA756008D5868 /* Release */,
+				3F8134B629561A2B00B5BB78 /* Debug */,
+				3F8134B729561A2B00B5BB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6EC65A291EA756008D5868 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */ = {
+		3F8134B829561A2B00B5BB78 /* Build configuration list for PBXNativeTarget "Legacy System Preferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F6EC65B291EA756008D5868 /* Debug */,
-				3F6EC65C291EA756008D5868 /* Release */,
+				3F8134B929561A2B00B5BB78 /* Debug */,
+				3F8134BA29561A2B00B5BB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F6EC643291EA753008D5868 /* Project object */;
+	rootObject = 3F8134A129561A2900B5BB78 /* Project object */;
 }

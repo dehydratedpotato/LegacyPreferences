@@ -1,13 +1,14 @@
 <h1 align="center" style="">Legacy System Preferences</h1>
 <p align="center">
-An expiremental, jank, slightly reverse-engineered attempt to return the old System Preferences to MacOS Ventura. Work in progress!
+An expiremental, slightly reverse-engineered attempt (with questionable stability) to return the old System Preferences to MacOS Ventura.
 </p>
 <p align="center">
+    <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=Swift&logoColor=white"/>
     <a href="">
        <img alt="Software Support" src="https://img.shields.io/badge/support-macOS_Ventura-lightgrey.svg"/>
     </a>
     <a href="">
-       <img alt="Stablility Status" src="https://img.shields.io/badge/stability-Jank-red.svg"/>
+       <img alt="Stablility Status" src="https://img.shields.io/badge/stability-Variable-orange.svg"/>
     </a>
     <a href="https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases">
         <img alt="Releases" src="https://img.shields.io/github/release/BitesPotatoBacks/LegacySystemPreferences.svg"/>
@@ -24,7 +25,7 @@ Example screenshot :arrow_down:
 <img src="https://user-images.githubusercontent.com/83843298/202055563-7ffc1d4f-a6f3-4dce-b586-0a33a961fb66.png" width="548">
 </p>
 
-<h6 align="center">Screenshot of Legacy System Preferences shown above</h6>
+<h6 align="center">Screenshot of Legacy System Preferences (using old pref panes) shown above</h6>
 
 ___
 
@@ -37,15 +38,15 @@ Some panes may require different privacy privileges in order to work properly. F
 ### Wat it do?
 In order restore the classic System Preferences (albeit in a pretty janky manner), we use the NSPreferencePane framework in order to interface with `.prefPane` files. New MacOS still contains the old `.prefPanes`, but most of the bundles are empty (as App Extensions are now used); so instead of using the newer empty files, we rip the completed old ones ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) out of a previous release of MacOS.
 
-(We don't use the new App Extension files because that would require manually recreating each classic Pane view) 
+(We don't use the new App Extension files because they wouldn't have the classic look!) 
 
 ### Why it do?
-Because some of us miss the ways of old (see new [System Settings](https://9to5mac.com/2022/06/06/macos-13-ventura-system-settings-first-look/)).
+Because some of us miss the ways of old (see new [System Settings](https://9to5mac.com/2022/06/06/macos-13-ventura-system-settings-first-look/)). Sure, it may be possible to bring the actual System Preferences from an older release (like Monterey) and run it in Ventura (with the proper pref panes)...
 
-**Note**: Although it may be possible to bring the actual System Preferences from an older release (like Monterey) and run it in Ventura (with the proper pref panes), that method requires access to another Mac or a VM. Besides, it probably wouldn't even run on your system (I tried it).
+...but it would be a pain to get it to run in most cases, and that method requires access to another Mac or a VM. If you want to go that route and it works, great! It probably will be less janky! Either way, this project is just an attempt of open-source revive-itizing, and was just a fun thing for me to throw togethar.
 
 ### Construction!
-The project source code is constructed from a weird mismash of old-Swift NSApp lifecycle, SwiftUI, and Objective-C. This frankenstein is both necessary, convenient, and a horrible pain. The app is compiled for x86 due to compatability reasons, and must run under Rosetta for Apple Silicon machines.
+The project is written in slightly messy Swift using a SwiftUI lifecycle, plus some good ol' Objective-C for legacy stuff. The app is compiled for x86 due to compatability reasons with old pref panes, and must run under Rosetta for Apple Silicon machines.
 
 ### Localization!
 No localization has been implemented just yet, working on that too...
@@ -73,29 +74,32 @@ ___
 
 # :warning: Halt! Misc Disclaimers and Warnings
 - The app icon used by Legacy System Preferences was designed by Apple, not I, and belongs to the native System Preferences/Settings app.
-- The classic preference panes used by this app ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) were written and licensed by Apple, not I, and were ripped from a previous release of MacOS.
+- The classic preference panes tested and avaiable for use by this app (I'm talking about the ones I have made available [here](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) were written and licensed by Apple, not I, and were ripped from a previous release of MacOS.
 
 If *any* preference pane (3rd party or from old macOS) contained by this app decides to wig out and bricks your machine or nukes your filesystem, don't blame me for the catastrophe. This project is very much a jank experiment. **You've been warned!!!**
 
 ___
 
 ## Completion Checklist
-This is a checklist of crucial features I need to hurry up and add. They are in development currently.
-- [ ] User Avatar Setting
-- [X] ~~User Avatar Collection~~
-- [ ] Search with Spotlight Focus
-- [X] ~~Backwards/Forwards Navigation~~
-- [ ] Crossfade Transitions
+This is a checklist of features that obviously existed in old System Preferences, which this project may or may not have currently.
 - [ ] Localization
+- [ ] Search Completion Dropwdown
+- [ ] AppleID Avatar Setting
+- [X] ~~User Avatar Collection~~
+- [x] ~~Search with Spotlight Focus~~
+- [X] ~~Backwards/Forwards Navigation~~
+- [x] ~~Crossfade Transitions~~
 - [X] ~~Alphabetical Pane Sorting~~
 - [X] ~~Pane Enable/Disable~~
 - [X] ~~3rd Party Pane Support~~
 - [X] ~~Pane Loading~~
 
-**Notes:** 3rd party panes are allowed but may still suffer instability. Place them in `/Library/PreferencePanes` as you normally would.
+**Notes:** 3rd party panes are allowed but may still suffer instability depending on the vendor, architecture, and etc. Place them in `/Library/PreferencePanes` as you normally would.
 
 ## Pane Status Table
-This is a report of old system prefs ([these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) and their status. Note that the `Appearance` pane works but is slightly unstable.
+This is a report on functionality of the old system pref panes (using [these](https://drive.google.com/drive/folders/1XXXov0TvGNJbwaqKJWsqp0x2cYOKh099?usp=share_link)) running via this project.
+
+**Note:** Some panes, such as **Appearance**/**General**, work fine but may crash the app.
 | Status | Pane(s)
 | ---- | ---- |
 | Seemingly Working | General, Spotlight, Language & Region, Sound, Sidecar, Date & Time, Energy Saver, Sharing, Network, Mouse, Security & Privacy, Extensions, Users & Groups, Mission Control |

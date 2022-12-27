@@ -5,13 +5,10 @@ An expiremental, slightly reverse-engineered attempt (with questionable stabilit
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=Swift&logoColor=white"/>
     <a href="">
-       <img alt="Software Support" src="https://img.shields.io/badge/support-macOS_Ventura-lightgrey.svg"/>
+       <img alt="Software Support" src="https://img.shields.io/badge/support-macOS_Ventura-orange.svg"/>
     </a>
-    <a href="">
-       <img alt="Stablility Status" src="https://img.shields.io/badge/stability-Variable-orange.svg"/>
-    </a>
-    <a href="https://github.com/BitesPotatoBacks/LegacySystemPreferences/releases">
-        <img alt="Releases" src="https://img.shields.io/github/release/BitesPotatoBacks/LegacySystemPreferences.svg"/>
+    <a href="https://github.com/BitesPotatoBacks/LegacySystemPreferences/stargazers">
+        <img alt="Stars" src="https://img.shields.io/github/stars/BitesPotatoBacks/LegacySystemPreferences.svg"/>
     </a>
 </p>
 

@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F343A5A29B6A14200CD3F6B /* UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F343A5929B6A14200CD3F6B /* UserAvatarView.swift */; };
 		3F8134AD29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */; };
 		3F8134B129561A2B00B5BB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134B029561A2B00B5BB78 /* Assets.xcassets */; };
 		3F8134B429561A2B00B5BB78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134B329561A2B00B5BB78 /* Preview Assets.xcassets */; };
 		3F8134BF29561ADA00B5BB78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134BE29561ADA00B5BB78 /* HomeView.swift */; };
 		3F8134C129561AE500B5BB78 /* PaneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C029561AE500B5BB78 /* PaneManager.swift */; };
 		3F8134C329561AF500B5BB78 /* BundleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C229561AF500B5BB78 /* BundleData.swift */; };
-		3F8134C729561B8100B5BB78 /* RepresentableSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */; };
-		3F8134C929561B9200B5BB78 /* RepresentablePaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */; };
+		3F8134C729561B8100B5BB78 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C629561B8100B5BB78 /* SearchField.swift */; };
+		3F8134C929561B9200B5BB78 /* PaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134C829561B9200B5BB78 /* PaneView.swift */; };
 		3F8134CB29561BA900B5BB78 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134CA29561BA900B5BB78 /* AvatarView.swift */; };
-		3F8134CD29561BD400B5BB78 /* PaneItemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */; };
 		3F8134D529561F9600B5BB78 /* PaneAccessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D329561F9600B5BB78 /* PaneAccessLayer.m */; };
 		3F8134D729561FB200B5BB78 /* PaneAccessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */; };
-		3F8134DA295622C200B5BB78 /* RepresentableVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */; };
-		3F8134DC29577FE800B5BB78 /* setavatar.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3F8134DB2957773500B5BB78 /* setavatar.sh */; };
+		3F8134DA295622C200B5BB78 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134D9295622C200B5BB78 /* VisualEffectView.swift */; };
 		3F8134E0295A1FFF00B5BB78 /* AvatarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */; };
+		3F82BFD329B674420008021A /* PaneItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82BFD229B674420008021A /* PaneItem.swift */; };
+		3F82BFD529B681590008021A /* PaneItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82BFD429B681590008021A /* PaneItemView.swift */; };
+		3F82BFD729B681630008021A /* PaneSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82BFD629B681630008021A /* PaneSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F343A5929B6A14200CD3F6B /* UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarView.swift; sourceTree = "<group>"; };
 		3F8134A929561A2900B5BB78 /* Legacy System Preferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legacy System Preferences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legacy_System_PreferencesApp.swift; sourceTree = "<group>"; };
 		3F8134B029561A2B00B5BB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,17 +36,18 @@
 		3F8134BE29561ADA00B5BB78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3F8134C029561AE500B5BB78 /* PaneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneManager.swift; sourceTree = "<group>"; };
 		3F8134C229561AF500B5BB78 /* BundleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleData.swift; sourceTree = "<group>"; };
-		3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableSearchField.swift; sourceTree = "<group>"; };
-		3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentablePaneView.swift; sourceTree = "<group>"; };
+		3F8134C629561B8100B5BB78 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		3F8134C829561B9200B5BB78 /* PaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneView.swift; sourceTree = "<group>"; };
 		3F8134CA29561BA900B5BB78 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneItemViews.swift; sourceTree = "<group>"; };
 		3F8134D329561F9600B5BB78 /* PaneAccessLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaneAccessLayer.m; sourceTree = "<group>"; };
 		3F8134D429561F9600B5BB78 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
 		3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneAccessLayer.m; sourceTree = "<group>"; };
 		3F8134D829561FCE00B5BB78 /* Legacy System Preferences-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Legacy System Preferences-Bridging-Header.h"; sourceTree = "<group>"; };
-		3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableVisualEffect.swift; sourceTree = "<group>"; };
-		3F8134DB2957773500B5BB78 /* setavatar.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setavatar.sh; sourceTree = "<group>"; };
+		3F8134D9295622C200B5BB78 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarManager.swift; sourceTree = "<group>"; };
+		3F82BFD229B674420008021A /* PaneItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneItem.swift; sourceTree = "<group>"; };
+		3F82BFD429B681590008021A /* PaneItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneItemView.swift; sourceTree = "<group>"; };
+		3F82BFD629B681630008021A /* PaneSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F343A5B29B6A3C500CD3F6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134C829561B9200B5BB78 /* PaneView.swift */,
+				3F82BFD429B681590008021A /* PaneItemView.swift */,
+				3F82BFD629B681630008021A /* PaneSectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F343A5C29B6A3D000CD3F6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134BE29561ADA00B5BB78 /* HomeView.swift */,
+				3F8134D9295622C200B5BB78 /* VisualEffectView.swift */,
+				3F8134C629561B8100B5BB78 /* SearchField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3F8134A029561A2900B5BB78 = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +104,11 @@
 				3F8134B529561A2B00B5BB78 /* Legacy_System_Preferences.entitlements */,
 				3F8134AC29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift */,
 				3F8134C229561AF500B5BB78 /* BundleData.swift */,
-				3F8134D829561FCE00B5BB78 /* Legacy System Preferences-Bridging-Header.h */,
 				3F8134D629561FB200B5BB78 /* PaneAccessLayer.m */,
-				3F8134CE29561BDB00B5BB78 /* Views */,
-				3F8134E1295A201D00B5BB78 /* Observed */,
-				3F8134CF29561BEA00B5BB78 /* Representable */,
-				3F8134DE295A1A6200B5BB78 /* Scripts */,
+				3F8134D829561FCE00B5BB78 /* Legacy System Preferences-Bridging-Header.h */,
+				3F343A5C29B6A3D000CD3F6B /* Views */,
+				3F82BFD929B692170008021A /* Avatar */,
+				3F82BFD829B6919E0008021A /* Pane */,
 				3F8134B229561A2B00B5BB78 /* Preview Content */,
 			);
 			path = "Legacy System Preferences";
@@ -101,41 +124,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3F8134CE29561BDB00B5BB78 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3F8134BE29561ADA00B5BB78 /* HomeView.swift */,
-				3F8134CA29561BA900B5BB78 /* AvatarView.swift */,
-				3F8134CC29561BD400B5BB78 /* PaneItemViews.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3F8134CF29561BEA00B5BB78 /* Representable */ = {
-			isa = PBXGroup;
-			children = (
-				3F8134C629561B8100B5BB78 /* RepresentableSearchField.swift */,
-				3F8134C829561B9200B5BB78 /* RepresentablePaneView.swift */,
-				3F8134D9295622C200B5BB78 /* RepresentableVisualEffect.swift */,
-			);
-			path = Representable;
-			sourceTree = "<group>";
-		};
-		3F8134DE295A1A6200B5BB78 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				3F8134DB2957773500B5BB78 /* setavatar.sh */,
-			);
-			path = Scripts;
-			sourceTree = "<group>";
-		};
-		3F8134E1295A201D00B5BB78 /* Observed */ = {
+		3F82BFD829B6919E0008021A /* Pane */ = {
 			isa = PBXGroup;
 			children = (
 				3F8134C029561AE500B5BB78 /* PaneManager.swift */,
-				3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */,
+				3F82BFD229B674420008021A /* PaneItem.swift */,
+				3F343A5B29B6A3C500CD3F6B /* Views */,
 			);
-			path = Observed;
+			path = Pane;
+			sourceTree = "<group>";
+		};
+		3F82BFD929B692170008021A /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				3F8134DF295A1FFF00B5BB78 /* AvatarManager.swift */,
+				3F8134CA29561BA900B5BB78 /* AvatarView.swift */,
+				3F343A5929B6A14200CD3F6B /* UserAvatarView.swift */,
+			);
+			path = Avatar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8134B429561A2B00B5BB78 /* Preview Assets.xcassets in Resources */,
-				3F8134DC29577FE800B5BB78 /* setavatar.sh in Resources */,
 				3F8134B129561A2B00B5BB78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,18 +215,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8134DA295622C200B5BB78 /* RepresentableVisualEffect.swift in Sources */,
-				3F8134CD29561BD400B5BB78 /* PaneItemViews.swift in Sources */,
-				3F8134C929561B9200B5BB78 /* RepresentablePaneView.swift in Sources */,
+				3F8134DA295622C200B5BB78 /* VisualEffectView.swift in Sources */,
+				3F8134C929561B9200B5BB78 /* PaneView.swift in Sources */,
 				3F8134C329561AF500B5BB78 /* BundleData.swift in Sources */,
 				3F8134BF29561ADA00B5BB78 /* HomeView.swift in Sources */,
+				3F82BFD729B681630008021A /* PaneSectionView.swift in Sources */,
 				3F8134AD29561A2900B5BB78 /* Legacy_System_PreferencesApp.swift in Sources */,
 				3F8134C129561AE500B5BB78 /* PaneManager.swift in Sources */,
+				3F343A5A29B6A14200CD3F6B /* UserAvatarView.swift in Sources */,
 				3F8134D729561FB200B5BB78 /* PaneAccessLayer.m in Sources */,
 				3F8134E0295A1FFF00B5BB78 /* AvatarManager.swift in Sources */,
+				3F82BFD329B674420008021A /* PaneItem.swift in Sources */,
 				3F8134D529561F9600B5BB78 /* PaneAccessLayer.m in Sources */,
+				3F82BFD529B681590008021A /* PaneItemView.swift in Sources */,
 				3F8134CB29561BA900B5BB78 /* AvatarView.swift in Sources */,
-				3F8134C729561B8100B5BB78 /* RepresentableSearchField.swift in Sources */,
+				3F8134C729561B8100B5BB78 /* SearchField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +363,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -370,7 +379,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -389,6 +398,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Legacy System Preferences/Legacy_System_Preferences.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -404,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitespotatobacks.Legacy-System-Preferences";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

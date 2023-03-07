@@ -45,7 +45,7 @@ ___
 ___
 
 # Functionality Warning
-Due to the nature of the project, some old-macOS panes (such as **Software Update** or **Siri**) may be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), and some crucial features are not fully implemented (see [Completion Checklist](#completion-checklist)).
+Due to the nature of the project, some old-macOS panes (such as **Software Update** or **Siri**) will _definitely_ be unstable or have limited functionality (see [Pane Status Table](#pane-status-table)), some crucial features are not fully implemented (see [Completion Checklist](#completion-checklist)), and performance may not be the best depending on the task.
 
 Some panes may require different privacy privileges in order to work properly. For example, screen recording for **Appearance** (weird, right?) or input monitoring for the keyboard menu in **Accessibility**.
 
@@ -61,7 +61,7 @@ Because some of us miss the ways of old (see new [System Settings](https://9to5m
 ...but it would be a pain to get it to run in most cases, and that method requires access to another Mac or a VM. If you want to go that route and it works, great! It probably will be less janky! Either way, this project is just an attempt of open-source revive-itizing, and was just a fun thing for me to throw togethar.
 
 ### Misc Notes
-The project is written in slightly messy Swift using a SwiftUI lifecycle, plus some good ol' Objective-C for legacy stuff. The app is compiled for x86 due to compatability reasons with old pref panes, and must run under Rosetta for Apple Silicon machines.
+The project is written in slightly messy Swift using a SwiftUI lifecycle, plus some good ol' Objective-C for legacy stuff. The app is compiled for x86 due to compatability reasons with old pref panes, and must run under Rosetta for Apple Silicon machines. This may causes some slower than appreciated performance when doing ceratin tasks, but that's the tradeoff.
 
 No localization has been implemented just yet, working on that too...
 
@@ -86,8 +86,8 @@ ___
 ## Completion Checklist
 This is a checklist of features that obviously existed in old System Preferences, which this project may or may not have currently.
 - [ ] Localization
-- [ ] Search Completion Dropwdown
 - [ ] AppleID Avatar Setting
+- [X] ~~Search Completion Dropwdown~~
 - [X] ~~User Avatar Collection~~
 - [x] ~~Search with Spotlight Focus~~
 - [X] ~~Backwards/Forwards Navigation~~

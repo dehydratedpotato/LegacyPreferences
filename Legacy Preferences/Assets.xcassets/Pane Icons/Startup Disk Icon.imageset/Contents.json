@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "StartupDisk-7 (dragged).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "StartupDisk-6 (dragged).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "StartupDisk-4 (dragged).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
